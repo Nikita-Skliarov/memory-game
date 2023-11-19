@@ -18,8 +18,8 @@ To get started with the Memory Quiz Game, follow these steps:
 
 1. Clone the repository to your local machine:
 
-bash:
-[Clone the repository](git clone https://github.com/some0ing/memoryCardGame)
+```bash
+git clone https://github.com/some0ing/memoryCardGame.git
 
 2. Open the index.html file in your preferred web browser.
 
