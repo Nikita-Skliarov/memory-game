@@ -20,6 +20,7 @@ To get started with the Memory Quiz Game, follow these steps:
 
 ```bash
 git clone https://github.com/some0ing/memoryCardGame.git
+```
 
 2. Open the index.html file in your preferred web browser.
 
