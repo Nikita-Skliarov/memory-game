@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Preconnect to Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Link to Montserrat font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <!-- External JavaScript file with defer attribute for deferred execution -->
+    <script src="scripts/game.js" defer></script>
+
+    <!-- Title of the webpage -->
+    <title>Memory game</title>
+</head>
+
+<body>
+    <!-- Navigation section -->
+    <nav>
+        <!-- Logo container -->
+        <div class="logo"><img src="css/logo/logo.png" id="logo" alt=""></div>
+
+        <!-- Navigation text container -->
+        <div class="nav-text">
+            <h1>MEMORY GAME</h1>
+        </div>
+    </nav>
+
+    <!-- Main content section -->
+    <div class="main-part">
+        <!-- Left side content -->
+        <div class="left-side">
+            <!-- Section with game introduction -->
+            <section>
+                <!-- Heading for game introduction -->
+                <h1>Do you know the memory game? <span style="color: brown;"></span></h1>
+
+                <!-- Description of the memory game -->
+                <h2>
+                    In the Memory game, cards with images are spread face-down on a playing surface.
+                    Players take turns flipping two cards at a time, trying to find pairs of identical images,
+                    with the goal of making as many matches as possible.
+                </h2>
+            </section>
+
+            <!-- Article section with start button and player input fields -->
+            <article>
+                <!-- Start button with onclick event to trigger the game -->
+                <button class="start-button" onclick="game()">Start</button>
+
+                <!-- Player input fields -->
+                <div class="inputVelden">
+                    <h2>Players:</h2>
+                    <input type="text" id="player1Name">
+                    <input type="text" id="player2Name">
+                </div>
+            </article>
+        </div>
+
+        <!-- Right side content -->
+        <div class="right-side">
+            <!-- Aside section for game scores, winner, and timer -->
+            <aside>
+                <!-- Game score container with initially hidden style -->
+                <div class="gameScore" style="display: none;">
+                    <!-- Player 1 score display -->
+                    <h1 id="player1Line">Player 1:</h1>
+                    <h2 id="player1Score">0</h2>
+
+                    <!-- Player 2 score display -->
+                    <h1 id="player2Line">Player 2:</h1>
+                    <h2 id="player2Score">0</h2>
+
+                    <!-- Winner display -->
+                    <h2 id="winner"></h2>
+
+                    <!-- Timer display -->
+                    <h2 id="timer">0 minutes 0 seconds</h2>
+
+                    <!-- Reset button with initially hidden style -->
+                    <button id="refreshButton" style="display: none;" class="start-button"
+                        onclick="refresh()">Reset</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>
