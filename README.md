@@ -54,6 +54,17 @@ JavaScript
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+Fork the repository.
+1)```Create a new branch for your feature:
+git checkout -b feature-name.
+```
+2)```Commit your changes:
+git commit -m 'Add new feature'.
+```
+3) ```Push to the branch:
+git push origin feature-name.
+```
+4) Submit a pull request.
 
 ## Fork the repository.
 Create a new branch for your feature: git checkout -b feature-name.
