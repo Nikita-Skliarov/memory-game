@@ -31,6 +31,8 @@ nav {
 
 .main-part {
     display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .left-side {
@@ -129,10 +131,16 @@ td img {
     display: block;
 }
 
+aside {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-aside h1,
-h2 {
-    text-align: center;
+section h1, section	h2 {
+    margin: 0;
 }
 
 aside h2 {
