@@ -1,6 +1,9 @@
 # Memory Quiz Game
 
-Welcome to the Memory Quiz Game! This project is a simple memory card game where players can test their memory by finding matching pairs of cards.
+This project is a simple memory card game where players can test their memory by finding matching pairs of cards.
+
+![image](https://github.com/Nikita-Skliarov/memory-game/assets/153517480/972f222b-6536-4818-850d-d9e1b4d57b4e)
+
 
 ## Table of Contents
 
@@ -56,19 +59,19 @@ JavaScript
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 Fork the repository.
 
-1)Create a new branch for your feature:
+1. Create a new branch for your feature:
 ```bash
 git checkout -b feature-name.
 ```
-2)Commit your changes:
+2. Commit your changes:
 ```bash
 git commit -m 'Add new feature'.
 ```
-3)Push to the branch:
+3. Push to the branch:
 ```bash
 git push origin feature-name.
 ```
-4)Submit a pull request.
+4. Submit a pull request.
 
 ## License
 
